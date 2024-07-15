@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		196033AB2C3D6B8E006D311A /* yamaoKadai15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yamaoKadai15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196033AB2C3D6B8E006D311A /* yamaoKadai15 rev1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yamaoKadai15 rev1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		196033AE2C3D6B8E006D311A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		196033B02C3D6B8E006D311A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		196033B22C3D6B8E006D311A /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		196033A22C3D6B8E006D311A = {
 			isa = PBXGroup;
 			children = (
-				196033AD2C3D6B8E006D311A /* yamaoKadai15 */,
+				196033AD2C3D6B8E006D311A /* yamaoKadai15 rev1 */,
 				196033AC2C3D6B8E006D311A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		196033AC2C3D6B8E006D311A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				196033AB2C3D6B8E006D311A /* yamaoKadai15.app */,
+				196033AB2C3D6B8E006D311A /* yamaoKadai15 rev1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		196033AD2C3D6B8E006D311A /* yamaoKadai15 */ = {
+		196033AD2C3D6B8E006D311A /* yamaoKadai15 rev1 */ = {
 			isa = PBXGroup;
 			children = (
 				196033AE2C3D6B8E006D311A /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				196033B92C3D6B8F006D311A /* LaunchScreen.storyboard */,
 				196033BC2C3D6B8F006D311A /* Info.plist */,
 			);
-			path = yamaoKadai15;
+			path = "yamaoKadai15 rev1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		196033AA2C3D6B8E006D311A /* yamaoKadai15 */ = {
+		196033AA2C3D6B8E006D311A /* yamaoKadai15 rev1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 196033BF2C3D6B8F006D311A /* Build configuration list for PBXNativeTarget "yamaoKadai15" */;
+			buildConfigurationList = 196033BF2C3D6B8F006D311A /* Build configuration list for PBXNativeTarget "yamaoKadai15 rev1" */;
 			buildPhases = (
 				196033A72C3D6B8E006D311A /* Sources */,
 				196033A82C3D6B8E006D311A /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = yamaoKadai15;
+			name = "yamaoKadai15 rev1";
 			productName = yamaoKadai14;
-			productReference = 196033AB2C3D6B8E006D311A /* yamaoKadai15.app */;
+			productReference = 196033AB2C3D6B8E006D311A /* yamaoKadai15 rev1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 196033A62C3D6B8E006D311A /* Build configuration list for PBXProject "yamaoKadai15" */;
+			buildConfigurationList = 196033A62C3D6B8E006D311A /* Build configuration list for PBXProject "yamaoKadai15 rev1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				196033AA2C3D6B8E006D311A /* yamaoKadai15 */,
+				196033AA2C3D6B8E006D311A /* yamaoKadai15 rev1 */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +302,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UVM8H8F4N8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = yamaoKadai15/Info.plist;
+				INFOPLIST_FILE = "yamaoKadai15 rev1/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "yamaoKadai15 rev1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UVM8H8F4N8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = yamaoKadai15/Info.plist;
+				INFOPLIST_FILE = "yamaoKadai15 rev1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -352,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		196033A62C3D6B8E006D311A /* Build configuration list for PBXProject "yamaoKadai15" */ = {
+		196033A62C3D6B8E006D311A /* Build configuration list for PBXProject "yamaoKadai15 rev1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				196033BD2C3D6B8F006D311A /* Debug */,
@@ -361,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		196033BF2C3D6B8F006D311A /* Build configuration list for PBXNativeTarget "yamaoKadai15" */ = {
+		196033BF2C3D6B8F006D311A /* Build configuration list for PBXNativeTarget "yamaoKadai15 rev1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				196033C02C3D6B8F006D311A /* Debug */,
