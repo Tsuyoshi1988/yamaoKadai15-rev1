@@ -52,8 +52,6 @@ class TableViewController: UITableViewController {
     
         
     
-    
-    
     @IBAction func exitFromAddByCancel(segue: UIStoryboardSegue) {
         
     }
